@@ -5,8 +5,9 @@ const path = require('path');
 const process = require('process');
 
 const versionMap = {
-  '2': '2.14.0',
+  '2': '2.15.0',
   '1': '1.3.17',
+  '2.15': '2.15.0',
   '2.14': '2.14.0',
   '2.13': '2.13.0',
   '2.12': '2.12.0',
