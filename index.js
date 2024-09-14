@@ -217,7 +217,7 @@ if (!fs.existsSync(opensearchHome)) {
 setConfig(opensearchHome);
 startServer();
 
-waitForReady();
+// waitForReady();
 
 addToEnv(`OPENSEARCH_HOME=${opensearchHome}`);
 addToPath(path.join(opensearchHome, 'bin'));
